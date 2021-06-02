@@ -1,16 +1,14 @@
 :root {
   --primary-color: #4d94bc;
   --secondary-color: #ccedff;
+  --primary-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   font-weight: 700;
   font-size: 96px;
-}
-
-p {
-  font-family: "Poppins", sans-serif;
 }
 
 .hero {
@@ -20,14 +18,14 @@ p {
 }
 
 .hero h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   color: #0e2633;
 }
 
 .hero h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 24px;
   color: #0e2633;
 }
@@ -38,6 +36,6 @@ button {
   color: #fff;
   border-radius: 4px;
   padding: 18px 46px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 18px;
 }

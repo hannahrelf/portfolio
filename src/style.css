@@ -105,6 +105,14 @@ p {
   padding-left: 100px;
 }
 
+.content .contact-link {
+  color: var(--primary-color);
+}
+
+.content .contact-link:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 64px;

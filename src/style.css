@@ -184,4 +184,8 @@ p {
   p {
     padding: 0;
   }
+
+  nav {
+    padding: 0 10px;
+  }
 }

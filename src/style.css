@@ -188,4 +188,6 @@ p {
   nav {
     padding: 0 10px;
   }
+
+  nav li{ font-size: 12px;}
 }

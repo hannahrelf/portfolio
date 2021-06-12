@@ -117,6 +117,10 @@ h1 {
   font-size: 64px;
 }
 
+.project-title h2 {
+  font-family: var(--heading-font);
+}
+
 h3 {
   font-family: var(--primary-font);
   font-size: 24px;
@@ -154,6 +158,15 @@ p {
 
 .content .contact-link:hover {
   color: var(--secondary-color);
+}
+
+.content .netlify-link {
+  text-decoration-style: dotted;
+  color: var(--primary-color);
+}
+
+.content .netlify-link:hover {
+  color: #0e2633;
 }
 
 footer {
@@ -194,6 +207,15 @@ footer .social-link a {
 footer .social-link a:hover {
   color: #ffffff;
   background: var(--primary-color);
+}
+
+.source-link a {
+  color: #000000;
+  opacity: 0.8;
+}
+
+.source-link a:hover {
+  opacity: 1;
 }
 
 @media (max-width: 992px) {

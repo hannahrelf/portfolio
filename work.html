@@ -25,7 +25,11 @@
       src="https://kit.fontawesome.com/262a8269dd.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Hannah is an aspiring front-end developer based in the UK and this is her current portfolio."
+    />
+    <title>Front-End Developer | Hannah Relf</title>
   </head>
   <body>
     <nav>
@@ -33,23 +37,23 @@
       <h6 class="logo-small d-block d-lg-none"><a href="/">H|R</a></h6>
       <ul>
         <li>
-          <a href="/"> Home</a>
+          <a href="/" title="Homepage"> Home</a>
         </li>
         <li>
-          <a href="/about.html"> About</a>
+          <a href="/about.html" title="About Hannah"> About</a>
         </li>
         <li>
-          <a href="/work.html" class="active"> Work</a>
+          <a href="/work.html" title="Hannah's Work" class="active"> Work</a>
         </li>
         <li>
-          <a href="/contact.html"> Contact</a>
+          <a href="/contact.html" title="Contact Hannah"> Contact</a>
         </li>
       </ul>
     </nav>
     <div class="container content">
       <h1>Take a look at what I've been working on!</h1>
       <div class="row mt-5">
-        <div class="col-lg-6 project-preview text-center mt-5">
+        <div class="col-lg-6 text-center mt-5">
           <img
             src="src/img/landing-page.png"
             alt=""
@@ -57,9 +61,16 @@
             id="landingPage"
           />
           <h3 class="mt-4">Landing Page</h3>
-          <p class="text-muted">Built using HTML and CSS</p>
+          <p class="text-muted">
+            Built using HTML and CSS<br /><a
+              href=""
+              class="netlify-link"
+              target="_blank"
+              >View on Netlify</a
+            >
+          </p>
         </div>
-        <div class="col-lg-6 project-preview text-center mt-5">
+        <div class="col-lg-6 text-center mt-5">
           <img
             src="src/img/weather-app.png"
             alt=""
@@ -67,18 +78,29 @@
             id="weatherApp"
           />
           <h3 class="mt-4">Weather App</h3>
-          <p class="text-muted">Built using HTML, CSS and JavaScript</p>
+          <p class="text-muted">
+            Built using HTML, CSS and JavaScript<br /><a
+              href="https://angry-euclid-6e0fb1.netlify.app/"
+              class="netlify-link"
+              target="_blank"
+              >View on Netlify</a
+            >
+          </p>
         </div>
       </div>
     </div>
-      <footer>
-      <div class="contact-box d-flex justify-content-between mb-5 d-none d-lg-flex">
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-lg-flex"
+      >
         <div>
           <h2>Work Inquiry</h2>
           <p class="text-muted">Let's work together</p>
         </div>
         <div class="d-flex align-items-center">
-          <button class="primary-button">Let's Talk</button>
+          <a href="/contact.html">
+            <button class="primary-button">Let's Talk</button></a
+          >
         </div>
       </div>
       <div class="d-flex justify-content-center mb-4">
@@ -91,6 +113,12 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
+      <p class="text-center text-muted mt-5 source-link">
+        This project was coded by <b>Hannah Relf</b> and is
+        <a href="https://github.com/hannahrelf/portfolio" target="_blank"
+          >open-sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>

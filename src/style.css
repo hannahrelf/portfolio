@@ -141,7 +141,7 @@ p {
   margin: 100px 150px;
 }
 
-.symbol {
+.content .symbol {
   font-size: 200px;
   color: var(--primary-color);
   opacity: 0.6;
@@ -156,8 +156,18 @@ p {
   color: var(--secondary-color);
 }
 
-footer{
-  margin: 60px 0;
+footer {
+  margin: 60px 100px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer h2 {
+  font-family: var(--heading-font);
+  font-size: 48px;
 }
 
 footer .email-link {
@@ -172,22 +182,19 @@ footer .email-link:hover {
   color: var(--primary-color);
 }
 
-footer .social-link a{
+footer .social-link a {
   margin: 0 20px;
   font-size: 20px;
-  color:var(--primary-color);
-  background:var(--secondary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
   padding: 4px 10px;
   border-radius: 50%;
 }
 
-footer .social-link a:hover{
+footer .social-link a:hover {
   color: #ffffff;
   background: var(--primary-color);
-
 }
-
-
 
 @media (max-width: 992px) {
   .hero h1 {
@@ -222,5 +229,7 @@ footer .social-link a:hover{
     padding: 0 10px;
   }
 
-  nav li{ font-size: 12px;}
+  nav li {
+    font-size: 12px;
+  }
 }
